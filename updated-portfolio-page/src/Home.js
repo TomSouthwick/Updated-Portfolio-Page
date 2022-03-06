@@ -1,8 +1,9 @@
 import logo from "./logo.svg";
 import "./App.css";
 import React, { useState, useEffect } from "react";
+import Nav from "./components/Nav.js";
 
-function App() {
+function Home() {
   useEffect(() => {
     var app = document.getElementById("app");
 
@@ -12,9 +13,9 @@ function App() {
 
     typewriter
       .typeString("Hi. I'm Tom Southwick")
-      .pauseFor(2500)
+      .pauseFor(3500)
       .deleteAll()
-      .typeString("Strings can be removed")
+      .typeString("Welcome to my profile")
       .pauseFor(2500)
       .deleteChars(7)
       .typeString("<strong>altered!</strong>")
@@ -24,16 +25,7 @@ function App() {
 
   return (
     <div className="App">
-      <nav>
-        <ul>
-          <li id="nav-item">Tom Southwick</li>
-          <li>BLOG</li>
-          <li>PROJECTS</li>
-          <li>SPEAKING</li>
-          <li>ABOUT</li>
-          <li>CONTACT</li>
-        </ul>
-      </nav>
+      <Nav />
       <div
         style={{
           textAlign: "center",
@@ -112,4 +104,4 @@ function App() {
   );
 }
 
-export default App;
+export default Home;
