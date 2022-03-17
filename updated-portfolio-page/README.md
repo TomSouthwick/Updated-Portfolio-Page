@@ -1,70 +1,184 @@
-# Getting Started with Create React App
+<div id="top"></div>
+<div align="center">
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+[![Issues][issues-shield]][issues-url]
+[![MIT License][license-shield]][license-url]
+[![linkedin][linkedin-shield]][linkedin-url]
 
-## Available Scripts
+</div>
+ <br />
+ <br />
 
-In the project directory, you can run:
+<div align="center">
+<img src="">
+</div>
 
-### `npm start`
+<h1 align="center">Speak Easy</h1>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+  <p align="center">
+    My Portfolio page is my final piece of work for USYD-Triology education. I've created a Portfolio page using react and javascript to demonstrate my learnings throughout the course
+    <br />
+    <a href="https://github.com/TomSouthwick/Updated-Portfolio-Page"><strong>Explore the docs »</strong></a>
+    <br />
+    <br />
+    ·
+    <a href="https://glacial-forest-03903.herokuapp.com"><strong>View App</strong></a>
+    ·
+    <a href="https://github.com/TomSouthwick/Updated-Portfolio-Page">Report Bug</a>
+    ·
+    <a href="https://github.com/TomSouthwick/Updated-Portfolio-Page">Request Feature</a>
+  </p>
+</div>
+<div align="center">
+<img src="./client/assets/giphcapture.gif" width="90%" height="100%">
+</div>
+ <br />
+ <br />
+<!-- TABLE OF CONTENTS -->
+<h3/>
+<b/>
+<details>
+  <summary>Table of Contents</summary>
+  <ol>
+    <li>
+      <a href="#about-the-project">About The Project</a>
+      <ul>
+        <li><a href="#built-with">Built With</a></li>
+      </ul>
+    </li>
+    <li>
+      <a href="#getting-started">Getting Started</a>
+      <ul>
+        <li><a href="#prerequisites">Prerequisites</a></li>
+        <li><a href="#installation">Installation</a></li>
+      </ul>
+    </li>
+    <li><a href="#usage">Usage</a></li>
+    <li><a href="#roadmap">Roadmap</a></li>
+    <li><a href="#license">License</a></li>
+    <li><a href="#contact">Contact</a></li>
+    <li><a href="#acknowledgments">Acknowledgments</a></li>
+  </ol>
+</details>
+</h3>
+</b>
+ <br />
+ <br />
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+<!-- ABOUT THE PROJECT -->
 
-### `npm test`
+## About The Project
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+ <br />
 
-### `npm run build`
+ <br />
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+This project was designed so that users can translate from one language to another easily. The user can either type or speak into the microphone in order to present the required text to be translated. Once the text is translated, it then can either be read or spoken allowed in the native voice of that selected language. Using the Cognitive Speech SDK from Azure, the app has the ability to have each language spoken or interpreted natively. This provides a user with a unique feature to hear the translated statement spoken in the desired language by someone who is fluent in that language. The requests to the server can only be made with a logged in User.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+<p align="right">(<a href="#top">back to top</a>)</p>
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Built With
 
-### `npm run eject`
+- [Cognitive Speech Services (Azure)](https://azure.microsoft.com/en-au/services/cognitive-services/speech-services/)
+- [Material-UI](https://mui.com/)
+- [GraphQL](https://graphql.org/)
+- [Express](https://expressjs.com/)
+- [MongoDB](https://www.mongodb.com/)
+- [JSON-Web-Token](https://jwt.io/)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+<p align="right">(<a href="#top">back to top</a>)</p>
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+<!-- GETTING STARTED -->
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Getting Started
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Clone the repo into a local folder. Open that folder in VS Code.
 
-## Learn More
+### Prerequisites
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Ensure that VS Code has the required languages inc. JS, Express, and React with the respective functionalities built in.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### Installation
 
-### Code Splitting
+1. Clone the repo
+   ```sh
+   git clone https://github.com/TomSouthwick/Updated-Portfolio-Page.git
+   ```
+2. Install NPM packages
+   ```sh
+   npm install
+   ```
+3. Run develop
+   ```sh
+   npm run develop
+   ```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+<p align="right">(<a href="#top">back to top</a>)</p>
 
-### Analyzing the Bundle Size
+<!-- USAGE EXAMPLES -->
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## Usage
 
-### Making a Progressive Web App
+1. Create an Account or Login
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+2. Translate away!
 
-### Advanced Configuration
+_For more examples, please refer to the [Documentation](https://github.com/TomSouthwick/Updated-Portfolio-Page)_
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+<p align="right">(<a href="#top">back to top</a>)</p>
 
-### Deployment
+<!-- ROADMAP -->
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+## Roadmap
 
-### `npm run build` fails to minify
+- ✅ IP generation after market research
+- ✅ Creating Azure connection
+- ✅ Designing database structure and UI structure
+- ✅ Implemented authentication
+- ✅ Creating text to speech, translation API and speech to text routes
+  - ✅ Securing individual routes
+- ✅ Styled UI and created a mobile responsive app
+- ✅ Integrated into Heroku
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+See the [open issues](https://github.com/TomSouthwick/Updated-Portfolio-Page/issues) for a full list of proposed features (and known issues).
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+<!-- CONTRIBUTING -->
+
+<!-- LICENSE -->
+
+## License
+
+Distributed under the MIT License. See `LICENSE.txt` for more information.
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+<!-- CONTACT -->
+
+## Contact
+
+Tom Southwick - [Linkedin](https://linkedin.com/in/tomsouthwick)
+
+Project Link: [https://github.com/TomSouthwick/Updated-Portfolio-Page](https://github.com/TomSouthwick/Updated-Portfolio-Page)
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+<!-- ACKNOWLEDGMENTS -->
+
+## Acknowledgments
+
+- [ReadMe](https://github.com/othneildrew/Best-README-Template.git)
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+<!-- MARKDOWN LINKS & IMAGES -->
+<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
+
+[issues-shield]: https://img.shields.io/github/issues/TomSouthwick/Updated-Portfolio-Page.svg?style=for-the-badge
+[issues-url]: https://github.com/TomSouthwick/Updated-Portfolio-Page/issues
+[license-shield]: https://img.shields.io/github/license/TomSouthwick/Team-Profile-Generator.svg?style=for-the-badge
+[license-url]: https://github.com/TomSouthwick/Updated-Portfolio-Page/blob/master/LICENSE.txt
+[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
+[linkedin-url]: https://linkedin.com/in/tomsouthwick
+[product-screenshot]: images/screenshot.png

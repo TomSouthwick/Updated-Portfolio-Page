@@ -9,7 +9,13 @@ function Resume() {
       <div style={{ color: "white", paddingTop: "50px" }}>
         <img src="./assets/cv_templates_with_photo.jpeg" alt="resume"></img>
       </div>
-      <div></div>
+      <a
+        className="btn btn-primary"
+        href="./assets/cv_templates_with_photo.jpeg"
+        download
+      >
+        Download CV
+      </a>
     </div>
   );
 }

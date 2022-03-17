@@ -2,6 +2,7 @@ import logo from "./logo.svg";
 import "./App.css";
 import React, { useState, useEffect } from "react";
 import Nav from "./components/Nav.js";
+import projectData from "./projects.json";
 
 function Home() {
   useEffect(() => {
@@ -83,21 +84,67 @@ function Home() {
             <h2>My Projects</h2>
             <p>link to my Github repositories</p>
           </div>
-          <div className="col-md-8 col-sm-12">
-            <img
-              style={{ borderRadius: "5px" }}
-              src="https://monicalent.com/images/blog/hawaii-house-2.jpg"
-            />
-          </div>
-          <div className="col-md-4 col-sm-12">
-            <h4>Project 1</h4>
-            <p>Description</p>
-            <div></div>
-          </div>
+          <a
+            target="_blank"
+            className="project-link"
+            href={projectData[0].liveUrl}
+            style={{ display: "inherit" }}
+          >
+            <div className="col-md-8 col-sm-12">
+              <img
+                style={{ borderRadius: "5px" }}
+                src={projectData[0].imgSrc}
+                onMouseOver={(e) => {
+                  e.currentTarget.src = projectData[0].gifSrc;
+                  e.currentTarget.classList.add("fade-in-image");
+                }}
+                onMouseOut={(e) => {
+                  e.currentTarget.src = projectData[0].imgSrc;
+                  e.currentTarget.classList.remove("fade-in-image");
+                }}
+              />
+            </div>
+
+            <div className="col-md-4 col-sm-12">
+              <h4>{projectData[0].title}</h4>
+              <p
+                dangerouslySetInnerHTML={{ __html: projectData[0].description }}
+              />
+            </div>
+          </a>
+
           <hr style={{ margin: "40px 10px" }} />
-          <div className="col-md-4">eey</div>
-          <div className="col-md-4">eey</div>
-          <div className="col-md-4">eey</div>
+          {projectData.map((project, index) => {
+            if (index === 0) {
+              return <></>;
+            }
+            return (
+              <div className="col-md-4 mb-4">
+                <a
+                  target="_blank"
+                  className="project-link"
+                  href={project.liveUrl}
+                >
+                  <img
+                    style={{ borderRadius: "5px" }}
+                    src={project.imgSrc}
+                    onMouseOver={(e) => {
+                      e.currentTarget.src = project.gifSrc;
+                      e.currentTarget.classList.add("fade-in-image");
+                    }}
+                    onMouseOut={(e) => {
+                      e.currentTarget.src = project.imgSrc;
+                      e.currentTarget.classList.remove("fade-in-image");
+                    }}
+                  />
+                  <h4 className="mt-2">{project.title}</h4>
+                  <p
+                    dangerouslySetInnerHTML={{ __html: project.description }}
+                  />
+                </a>
+              </div>
+            );
+          })}
         </div>
       </div>
     </div>
