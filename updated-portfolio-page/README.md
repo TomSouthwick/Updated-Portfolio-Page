@@ -10,13 +10,13 @@
  <br />
 
 <div align="center">
-<img src="">
+<img src="public/assets/readme.png">
 </div>
 
-<h1 align="center">Speak Easy</h1>
+<h1 align="center">Portfolio Page</h1>
 
   <p align="center">
-    My Portfolio page is my final piece of work for USYD-Triology education. I've created a Portfolio page using react and javascript to demonstrate my learnings throughout the course
+    My Portfolio page is my final piece of work for USYD-Triology education. I've created a Portfolio page using react and javascript to demonstrate my learnings throughout the course.
     <br />
     <a href="https://github.com/TomSouthwick/Updated-Portfolio-Page"><strong>Explore the docs »</strong></a>
     <br />
@@ -30,7 +30,7 @@
   </p>
 </div>
 <div align="center">
-<img src="./client/assets/giphcapture.gif" width="90%" height="100%">
+<img src="public/assets/pic1.png" width="90%" height="100%">
 </div>
  <br />
  <br />
@@ -45,15 +45,6 @@
       <ul>
         <li><a href="#built-with">Built With</a></li>
       </ul>
-    </li>
-    <li>
-      <a href="#getting-started">Getting Started</a>
-      <ul>
-        <li><a href="#prerequisites">Prerequisites</a></li>
-        <li><a href="#installation">Installation</a></li>
-      </ul>
-    </li>
-    <li><a href="#usage">Usage</a></li>
     <li><a href="#roadmap">Roadmap</a></li>
     <li><a href="#license">License</a></li>
     <li><a href="#contact">Contact</a></li>
@@ -73,57 +64,16 @@
 
  <br />
 
-This project was designed so that users can translate from one language to another easily. The user can either type or speak into the microphone in order to present the required text to be translated. Once the text is translated, it then can either be read or spoken allowed in the native voice of that selected language. Using the Cognitive Speech SDK from Azure, the app has the ability to have each language spoken or interpreted natively. This provides a user with a unique feature to hear the translated statement spoken in the desired language by someone who is fluent in that language. The requests to the server can only be made with a logged in User.
+My portfolio page is designed to showcase my collection of work throughout my time at USYD. With each major listed on the page, I have decided to showcase some of the more difficult tasks. Whilst there was alot of focus on back-end development, show casing schema design was a little more tricky. I aim to include those projects in sometime within the future
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 ### Built With
 
-- [Cognitive Speech Services (Azure)](https://azure.microsoft.com/en-au/services/cognitive-services/speech-services/)
-- [Material-UI](https://mui.com/)
-- [GraphQL](https://graphql.org/)
-- [Express](https://expressjs.com/)
-- [MongoDB](https://www.mongodb.com/)
-- [JSON-Web-Token](https://jwt.io/)
-
-<p align="right">(<a href="#top">back to top</a>)</p>
-
-<!-- GETTING STARTED -->
-
-## Getting Started
-
-Clone the repo into a local folder. Open that folder in VS Code.
-
-### Prerequisites
-
-Ensure that VS Code has the required languages inc. JS, Express, and React with the respective functionalities built in.
-
-### Installation
-
-1. Clone the repo
-   ```sh
-   git clone https://github.com/TomSouthwick/Updated-Portfolio-Page.git
-   ```
-2. Install NPM packages
-   ```sh
-   npm install
-   ```
-3. Run develop
-   ```sh
-   npm run develop
-   ```
-
-<p align="right">(<a href="#top">back to top</a>)</p>
-
-<!-- USAGE EXAMPLES -->
-
-## Usage
-
-1. Create an Account or Login
-
-2. Translate away!
-
-_For more examples, please refer to the [Documentation](https://github.com/TomSouthwick/Updated-Portfolio-Page)_
+- [Bootstrap](https://getbootstrap.com/)
+- [React](https://reactjs.org/)
+- [Javascript](https://www.javascript.com/)
+- [My Very Own Projects](https://github.com/TomSouthwick?tab=repositories)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -131,14 +81,13 @@ _For more examples, please refer to the [Documentation](https://github.com/TomSo
 
 ## Roadmap
 
-- ✅ IP generation after market research
-- ✅ Creating Azure connection
-- ✅ Designing database structure and UI structure
-- ✅ Implemented authentication
-- ✅ Creating text to speech, translation API and speech to text routes
-  - ✅ Securing individual routes
-- ✅ Styled UI and created a mobile responsive app
-- ✅ Integrated into Heroku
+- ✅ Sketching out a template
+- ✅ Creating a react app
+- ✅ Designing UI flow
+- ✅ Building out each section
+- ✅ Styling different components
+  - ✅ Deciding which projects to showcase
+- ✅ Making the app mobile responsive!
 
 See the [open issues](https://github.com/TomSouthwick/Updated-Portfolio-Page/issues) for a full list of proposed features (and known issues).
 

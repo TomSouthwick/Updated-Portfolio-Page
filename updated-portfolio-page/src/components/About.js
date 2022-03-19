@@ -14,10 +14,13 @@ function About() {
               style={{ display: "flex", alignItems: "center" }}
               className="col-md-6 col-sm-12"
             >
-              <img src="./assets/Project-1.png"></img>
+              <img
+                style={{ height: "500px" }}
+                src="./assets/profilePic.jpeg"
+              ></img>
             </div>
             <div
-              style={{ display: "flex", alignItems: "center" }}
+              style={{ display: "flex", alignItems: "center", padding: "50px" }}
               className="col-md-6 col-sm-12 aboutMeText"
             >
               <div>

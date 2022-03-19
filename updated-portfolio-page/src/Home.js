@@ -19,7 +19,7 @@ function Home() {
       .typeString("Welcome to my profile")
       .pauseFor(2500)
       .deleteChars(7)
-      .typeString("<strong>altered!</strong>")
+      .typeString("<strong>profile!</strong>")
       .pauseFor(2500)
       .start();
   });
@@ -40,7 +40,7 @@ function Home() {
           <div id="app"></div>
         </h1>
         <h5 style={{ opacity: 0.8, marginTop: "20px" }}>
-          I am learning the profession of teh cockroach
+          A full-stack web developer in training!
         </h5>
 
         <p
@@ -51,9 +51,10 @@ function Home() {
             maxWidth: "500px",
           }}
         >
-          Hello can you see me = giant roach. My flatmate is very nervous
-          sometimes he doesn't like it when I code, as such he often calls me
-          steve jobs
+          Hi, my name is Tom Southwick and I'm a recent graduate out of USYD.
+          Studying a microcredential in software engineering has taught me how
+          to problem solve common day issues using Javascript. I hope you enjoy
+          viewing my portfolio page!
         </p>
         <div className="social-links">
           <a
@@ -82,7 +83,6 @@ function Home() {
             }}
           >
             <h2>My Projects</h2>
-            <p>link to my Github repositories</p>
           </div>
           <a
             target="_blank"
@@ -109,6 +109,12 @@ function Home() {
               <h4>{projectData[0].title}</h4>
               <p
                 dangerouslySetInnerHTML={{ __html: projectData[0].description }}
+                style={{
+                  marginTop: "50px",
+                  paddingLeft: "30px",
+                  paddingRight: "30px",
+                  paddingBottom: "30px",
+                }}
               />
             </div>
           </a>
@@ -126,7 +132,12 @@ function Home() {
                   href={project.liveUrl}
                 >
                   <img
-                    style={{ borderRadius: "5px" }}
+                    alt=""
+                    style={{
+                      borderRadius: "5px",
+                      width: "351px",
+                      height: "249.69px",
+                    }}
                     src={project.imgSrc}
                     onMouseOver={(e) => {
                       e.currentTarget.src = project.gifSrc;

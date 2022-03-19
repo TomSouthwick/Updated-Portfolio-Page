@@ -1,31 +1,34 @@
 [
   {
+    "title": "Mirage",
+    "meta": "A New Social Media Frontier",
+    "description": "<p>Mirage is a step towards a clean and simple social media application. The app has been built to focus solely on the people and individual follows.</p>",
+    "gifSrc": "./assets/mirage-gif.gif",
+    "imgSrc": "./assets/Mirage.png",
+    "liveUrl": "https://polar-forest-94137.herokuapp.com/"
+  },
+  {
     "title": "SpeakEasy",
     "meta": "A Cognitive Speech Based Translator App",
-    "description": "<p>Hello this is a test</p>",
-    "gifSrc": "./assets/JATE-giph.gif",
+    "description": "This project was designed so that users can translate from one language to another easily. The user can either type or speak into the microphone in order to present the required text to be translated. Once the text is translated, it then can either be read or spoken allowed in the native voice of that selected language. Using the Cognitive Speech SDK from Azure, the app has the ability to have each language spoken or interpreted natively. This provides a user with a unique feature to hear the translated statement spoken in the desired language by someone who is fluent in that language. The requests to the server can only be made with a logged in User.",
+    "gifSrc": "./assets/SpeakEasygif.gif",
+    "imgSrc": "./assets/SpeakEasy.png",
+    "liveUrl": "https://glacial-forest-03903.herokuapp.com/"
+  },
+  {
+    "title": "Country Travel Advisor",
+    "meta": "A Travel Essiental App Providing Valuable Information About Your Next Destination",
+    "description": "The Country Travel Advisor is your digital travel guide and an essential tool for planning a successful holiday, honeymoon or weekend getaway! The Country Travel Advisor utilizes Public API's and cutting edge features to organize the relevant information required to successfully navigate through any country you desire. The Country Travel Advisor was designed with a minimalistic approach, to display only relevant information to avoid decision paralysis and streamline your holiday experience before you have even left the house.",
+    "gifSrc": "./assets/travelPlannergif.gif",
     "imgSrc": "./assets/Project-1.png",
-    "liveUrl": "https://google.com"
+    "liveUrl": "https://n1cholassmith.github.io/country-travel-advisor/"
   },
   {
-    "title": "SpeakEasy",
-    "meta": "A Cognitive Speec Based Translator App",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas consectetur turpis nunc, iaculis luctus ligula lobortis eu. Donec leo nunc, mollis at vulputate vel, faucibus in sem. Vestibulum nec tellus quis mi tempor facilisis sed sed velit. Curabitur euismod, diam vitae dapibus tempus, elit libero tempus libero, sed mollis sem nibh nec elit. Nam posuere dignissim erat, non consectetur leo tempus in. Donec nec neque lacus. Etiam fermentum neque ac porttitor vestibulum.Phasellus pharetra vitae sapien vitae elementum. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Maecenas venenatis, quam in scelerisque volutpat, velit ligula ultricies orci, sit amet placerat lorem dui et nunc. Praesent lectus metus, ullamcorper vitae iaculis in, rutrum vel felis. Aliquam eget felis urna. Sed volutpat lorem in eleifend suscipit. Nam sit amet faucibus nisl. Pellentesque sed hendrerit ex. Duis a vehicula ex. Morbi fringilla turpis vel arcu ultricies dapibus. Aliquam gravida mi et accumsan commodo.",
-    "imgSrc": "https://thumbs.dreamstime.com/b/young-handsome-man-holding-banana-as-gun-his-temple-isolated-white-background-young-handsome-man-holding-banana-as-gun-155828766.jpg",
-    "liveUrl": "https://google.com"
-  },
-  {
-    "title": "SpeakEasy",
-    "meta": "A Cognitive Speec Based Translator App",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas consectetur turpis nunc, iaculis luctus ligula lobortis eu. Donec leo nunc, mollis at vulputate vel, faucibus in sem. Vestibulum nec tellus quis mi tempor facilisis sed sed velit. Curabitur euismod, diam vitae dapibus tempus, elit libero tempus libero, sed mollis sem nibh nec elit. Nam posuere dignissim erat, non consectetur leo tempus in. Donec nec neque lacus. Etiam fermentum neque ac porttitor vestibulum.Phasellus pharetra vitae sapien vitae elementum. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Maecenas venenatis, quam in scelerisque volutpat, velit ligula ultricies orci, sit amet placerat lorem dui et nunc. Praesent lectus metus, ullamcorper vitae iaculis in, rutrum vel felis. Aliquam eget felis urna. Sed volutpat lorem in eleifend suscipit. Nam sit amet faucibus nisl. Pellentesque sed hendrerit ex. Duis a vehicula ex. Morbi fringilla turpis vel arcu ultricies dapibus. Aliquam gravida mi et accumsan commodo.",
-    "imgSrc": "https://thumbs.dreamstime.com/b/young-handsome-man-holding-banana-as-gun-his-temple-isolated-white-background-young-handsome-man-holding-banana-as-gun-155828766.jpg",
-    "liveUrl": "https://google.com"
-  },
-  {
-    "title": "SpeakEasy",
-    "meta": "A Cognitive Speec Based Translator App",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas consectetur turpis nunc, iaculis luctus ligula lobortis eu. Donec leo nunc, mollis at vulputate vel, faucibus in sem. Vestibulum nec tellus quis mi tempor facilisis sed sed velit. Curabitur euismod, diam vitae dapibus tempus, elit libero tempus libero, sed mollis sem nibh nec elit. Nam posuere dignissim erat, non consectetur leo tempus in. Donec nec neque lacus. Etiam fermentum neque ac porttitor vestibulum.Phasellus pharetra vitae sapien vitae elementum. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Maecenas venenatis, quam in scelerisque volutpat, velit ligula ultricies orci, sit amet placerat lorem dui et nunc. Praesent lectus metus, ullamcorper vitae iaculis in, rutrum vel felis. Aliquam eget felis urna. Sed volutpat lorem in eleifend suscipit. Nam sit amet faucibus nisl. Pellentesque sed hendrerit ex. Duis a vehicula ex. Morbi fringilla turpis vel arcu ultricies dapibus. Aliquam gravida mi et accumsan commodo.",
-    "imgSrc": "https://thumbs.dreamstime.com/b/young-handsome-man-holding-banana-as-gun-his-temple-isolated-white-background-young-handsome-man-holding-banana-as-gun-155828766.jpg",
-    "liveUrl": "https://google.com"
+    "title": "Just Another Text Editor",
+    "meta": "",
+    "description": " JATE or Just Another Text Editor is a text editor application that persists online after a page refresh and complies to an installable application. JATE persists in IndexDB and as a service worker so that when a user refreshes their page their previously entered text still persists. The application is hosted and complied within Heroku giving the site a dynamic feel. The application is also downloadable which allows a user to use the text-editor offline! ",
+    "gifSrc": "./assets/JATE-giph.gif",
+    "imgSrc": "./assets/jate.png",
+    "liveUrl": "https://spiceyfriedrice.herokuapp.com/"
   }
 ]

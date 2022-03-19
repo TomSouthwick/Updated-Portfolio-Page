@@ -7,7 +7,11 @@ function Resume() {
     <div className="App">
       <Nav />
       <div style={{ color: "white", paddingTop: "50px" }}>
-        <img src="./assets/cv_templates_with_photo.jpeg" alt="resume"></img>
+        <img
+          style={{ width: "800px" }}
+          src="./assets/Merged_document.png"
+          alt="resume"
+        ></img>
       </div>
       <a
         className="btn btn-primary"
