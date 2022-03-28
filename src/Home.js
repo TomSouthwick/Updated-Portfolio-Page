@@ -84,13 +84,14 @@ function Home() {
           >
             <h2>My Projects</h2>
           </div>
-          <a
-            target="_blank"
-            className="project-link"
-            href={projectData[0].liveUrl}
-            style={{ display: "inherit" }}
-          >
-            <div className="col-md-8 col-sm-12">
+
+          <div className="col-md-8 col-sm-12">
+            <a
+              target="_blank"
+              className="project-link"
+              href={projectData[0].liveUrl}
+              style={{ display: "inherit" }}
+            >
               <img
                 style={{ borderRadius: "5px" }}
                 src={projectData[0].imgSrc}
@@ -103,21 +104,26 @@ function Home() {
                   e.currentTarget.classList.remove("fade-in-image");
                 }}
               />
-            </div>
+            </a>
+          </div>
 
-            <div className="col-md-4 col-sm-12">
-              <h4>{projectData[0].title}</h4>
-              <p
-                dangerouslySetInnerHTML={{ __html: projectData[0].description }}
-                style={{
-                  marginTop: "50px",
-                  paddingLeft: "30px",
-                  paddingRight: "30px",
-                  paddingBottom: "30px",
-                }}
-              />
-            </div>
-          </a>
+          <div className="col-md-4 col-sm-12">
+            <h4>{projectData[0].title}</h4>
+            <p
+              dangerouslySetInnerHTML={{ __html: projectData[0].description }}
+              style={{
+                marginTop: "50px",
+                paddingLeft: "30px",
+                paddingRight: "30px",
+                paddingBottom: "30px",
+              }}
+            />
+            <p>
+              <a href={projectData[0].liveUrl}>Github</a>
+              <br />
+              <a href={projectData[0].liveUrlApp}>Live App</a>
+            </p>
+          </div>
 
           <hr style={{ margin: "40px 10px" }} />
           {projectData.map((project, index) => {
@@ -148,11 +154,15 @@ function Home() {
                       e.currentTarget.classList.remove("fade-in-image");
                     }}
                   />
-                  <h4 className="mt-2">{project.title}</h4>
-                  <p
-                    dangerouslySetInnerHTML={{ __html: project.description }}
-                  />
                 </a>
+
+                <h4 className="mt-2">{project.title}</h4>
+                <p dangerouslySetInnerHTML={{ __html: project.description }} />
+                <p>
+                  <a href={project.liveUrl}>Github</a>
+                  <br />
+                  <a href={project.liveUrlApp}>Live App</a>
+                </p>
               </div>
             );
           })}

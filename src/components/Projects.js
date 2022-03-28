@@ -11,9 +11,13 @@ function Projects() {
         <h1>My Projects </h1>
         <div class="container">
           {projectData.map((project) => (
-            <a target="_blank" href={project.liveUrl} className="project-link">
-              <div class="row mt-4" style={{ textAlign: "left" }}>
-                <div class="col-lg-4 col-12-sm">
+            <div class="row mt-4" style={{ textAlign: "left" }}>
+              <div class="col-lg-4 col-12-sm">
+                <a
+                  target="_blank"
+                  href={project.liveUrl}
+                  className="project-link"
+                >
                   <img
                     // style={{ height: "250px", width: "400px" }}
                     className="project-img"
@@ -28,16 +32,19 @@ function Projects() {
                       e.currentTarget.classList.remove("fade-in-image");
                     }}
                   ></img>
-                </div>
-                <div class="col-lg-8 col-12-sm">
-                  <h4>{project.title}</h4>
-                  <h6>{project.meta}</h6>
-                  <p
-                    dangerouslySetInnerHTML={{ __html: project.description }}
-                  />
-                </div>
+                </a>
               </div>
-            </a>
+              <div class="col-lg-8 col-12-sm">
+                <h4>{project.title}</h4>
+                <h6>{project.meta}</h6>
+                <p dangerouslySetInnerHTML={{ __html: project.description }} />
+                <p>
+                  <a href={project.liveUrl}>Github</a>
+                  <br />
+                  <a href={project.liveUrlApp}>Live App</a>
+                </p>
+              </div>
+            </div>
           ))}
         </div>
       </div>

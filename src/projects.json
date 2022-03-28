@@ -5,7 +5,8 @@
     "description": "<p>Mirage is a step towards a clean and simple social media application. The app has been built to focus solely on the people and individual follows.</p>",
     "gifSrc": "./assets/mirage-gif.gif",
     "imgSrc": "./assets/Mirage.png",
-    "liveUrl": "https://polar-forest-94137.herokuapp.com/"
+    "liveUrl": "https://github.com/TomSouthwick/Project-2.git",
+    "liveUrlApp": "https://github.com/TomSouthwick/Project-2.git"
   },
   {
     "title": "SpeakEasy",
@@ -13,7 +14,8 @@
     "description": "This project was designed so that users can translate from one language to another easily. The user can either type or speak into the microphone in order to present the required text to be translated. Once the text is translated, it then can either be read or spoken allowed in the native voice of that selected language. Using the Cognitive Speech SDK from Azure, the app has the ability to have each language spoken or interpreted natively. This provides a user with a unique feature to hear the translated statement spoken in the desired language by someone who is fluent in that language. The requests to the server can only be made with a logged in User.",
     "gifSrc": "./assets/SpeakEasygif.gif",
     "imgSrc": "./assets/SpeakEasy.png",
-    "liveUrl": "https://glacial-forest-03903.herokuapp.com/"
+    "liveUrl": "https://github.com/TomSouthwick/SpeakEasy.git",
+    "liveUrlApp": "https://github.com/TomSouthwick/Project-2.git"
   },
   {
     "title": "Country Travel Advisor",
@@ -21,7 +23,8 @@
     "description": "The Country Travel Advisor is your digital travel guide and an essential tool for planning a successful holiday, honeymoon or weekend getaway! The Country Travel Advisor utilizes Public API's and cutting edge features to organize the relevant information required to successfully navigate through any country you desire. The Country Travel Advisor was designed with a minimalistic approach, to display only relevant information to avoid decision paralysis and streamline your holiday experience before you have even left the house.",
     "gifSrc": "./assets/travelPlannergif.gif",
     "imgSrc": "./assets/Project-1.png",
-    "liveUrl": "https://n1cholassmith.github.io/country-travel-advisor/"
+    "liveUrl": "https://github.com/N1cholasSmith/country-travel-advisor.git",
+    "liveUrlApp": "https://github.com/TomSouthwick/Project-2.git"
   },
   {
     "title": "Just Another Text Editor",
@@ -29,6 +32,7 @@
     "description": " JATE or Just Another Text Editor is a text editor application that persists online after a page refresh and complies to an installable application. JATE persists in IndexDB and as a service worker so that when a user refreshes their page their previously entered text still persists. The application is hosted and complied within Heroku giving the site a dynamic feel. The application is also downloadable which allows a user to use the text-editor offline! ",
     "gifSrc": "./assets/JATE-giph.gif",
     "imgSrc": "./assets/jate.png",
-    "liveUrl": "https://spiceyfriedrice.herokuapp.com/"
+    "liveUrl": "https://github.com/TomSouthwick/Text-Editor.git",
+    "liveUrlApp": "https://github.com/TomSouthwick/Project-2.git"
   }
 ]

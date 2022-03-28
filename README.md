@@ -18,15 +18,15 @@
   <p align="center">
     My Portfolio page is my final piece of work for USYD-Triology education. I've created a Portfolio page using react and javascript to demonstrate my learnings throughout the course.
     <br />
-    <a href="https://github.com/TomSouthwick/Updated-Portfolio-Page"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/TomSouthwick/TomSouthwick"><strong>Explore the docs »</strong></a>
     <br />
     <br />
     ·
     <a href="https://glacial-forest-03903.herokuapp.com"><strong>View App</strong></a>
     ·
-    <a href="https://github.com/TomSouthwick/Updated-Portfolio-Page">Report Bug</a>
+    <a href="https://github.com/TomSouthwick/TomSouthwick">Report Bug</a>
     ·
-    <a href="https://github.com/TomSouthwick/Updated-Portfolio-Page">Request Feature</a>
+    <a href="https://github.com/TomSouthwick/TomSouthwick">Request Feature</a>
   </p>
 </div>
 <div align="center">
@@ -89,7 +89,7 @@ My portfolio page is designed to showcase my collection of work throughout my ti
   - ✅ Deciding which projects to showcase
 - ✅ Making the app mobile responsive!
 
-See the [open issues](https://github.com/TomSouthwick/Updated-Portfolio-Page/issues) for a full list of proposed features (and known issues).
+See the [open issues](https://github.com/TomSouthwick/TomSouthwick/issues) for a full list of proposed features (and known issues).
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -109,7 +109,7 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 Tom Southwick - [Linkedin](https://linkedin.com/in/tomsouthwick)
 
-Project Link: [https://github.com/TomSouthwick/Updated-Portfolio-Page](https://github.com/TomSouthwick/Updated-Portfolio-Page)
+Project Link: [https://github.com/TomSouthwick/TomSouthwick](https://github.com/TomSouthwick/TomSouthwick)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -124,10 +124,10 @@ Project Link: [https://github.com/TomSouthwick/Updated-Portfolio-Page](https://g
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 
-[issues-shield]: https://img.shields.io/github/issues/TomSouthwick/Updated-Portfolio-Page.svg?style=for-the-badge
-[issues-url]: https://github.com/TomSouthwick/Updated-Portfolio-Page/issues
+[issues-shield]: https://img.shields.io/github/issues/TomSouthwick/TomSouthwick.svg?style=for-the-badge
+[issues-url]: https://github.com/TomSouthwick/TomSouthwick/issues
 [license-shield]: https://img.shields.io/github/license/TomSouthwick/Team-Profile-Generator.svg?style=for-the-badge
-[license-url]: https://github.com/TomSouthwick/Updated-Portfolio-Page/blob/master/LICENSE.txt
+[license-url]: https://github.com/TomSouthwick/TomSouthwick/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/tomsouthwick
 [product-screenshot]: images/screenshot.png
