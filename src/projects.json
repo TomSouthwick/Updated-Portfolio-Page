@@ -6,7 +6,7 @@
     "gifSrc": "./assets/mirage-gif.gif",
     "imgSrc": "./assets/Mirage.png",
     "liveUrl": "https://github.com/TomSouthwick/Project-2.git",
-    "liveUrlApp": "https://github.com/TomSouthwick/Project-2.git"
+    "liveUrlApp": "https://polar-forest-94137.herokuapp.com/"
   },
   {
     "title": "SpeakEasy",
@@ -15,7 +15,7 @@
     "gifSrc": "./assets/SpeakEasygif.gif",
     "imgSrc": "./assets/SpeakEasy.png",
     "liveUrl": "https://github.com/TomSouthwick/SpeakEasy.git",
-    "liveUrlApp": "https://github.com/TomSouthwick/Project-2.git"
+    "liveUrlApp": "https://glacial-forest-03903.herokuapp.com/"
   },
   {
     "title": "Country Travel Advisor",
@@ -24,7 +24,7 @@
     "gifSrc": "./assets/travelPlannergif.gif",
     "imgSrc": "./assets/Project-1.png",
     "liveUrl": "https://github.com/N1cholasSmith/country-travel-advisor.git",
-    "liveUrlApp": "https://github.com/TomSouthwick/Project-2.git"
+    "liveUrlApp": "https://n1cholassmith.github.io/country-travel-advisor/"
   },
   {
     "title": "Just Another Text Editor",
@@ -33,6 +33,6 @@
     "gifSrc": "./assets/JATE-giph.gif",
     "imgSrc": "./assets/jate.png",
     "liveUrl": "https://github.com/TomSouthwick/Text-Editor.git",
-    "liveUrlApp": "https://github.com/TomSouthwick/Project-2.git"
+    "liveUrlApp": "https://spiceyfriedrice.herokuapp.com/"
   }
 ]
